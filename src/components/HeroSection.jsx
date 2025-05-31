@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { db } from './firebase';
 import { collection, addDoc } from 'firebase/firestore';
 import Ariz from '../assets/Ariz.png';
+import '..App';
 
 const HeroSection = () => {
   const handleContactClick = () => {
@@ -137,8 +138,12 @@ const HeroSection = () => {
 
   {/* Ariz Image Above the Gradient (z-10) */}
 <div className="absolute bottom-0 right-0 z-0 w-[280px] sm:w-[320px] md:w-[380px] lg:w-[440px] xl:w-[500px] 2xl:w-[560px] mb-15 mr-10">
-    <img src={Ariz} alt="Ariz" className="w-full h-auto object-contain" />
-  </div>
+  <img
+    src={Ariz}
+    alt="Ariz"
+    className="w-full h-auto object-contain animate-float"
+  />
+</div>
 </div>
 
       {/* Inline CSS to fix scrollbar issue */}
