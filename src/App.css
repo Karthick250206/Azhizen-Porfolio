@@ -17,5 +17,4 @@
 }
 
 .animate-float {
-  animation: float 3s ease-in-out infinite; /* 3s duration, smooth easing, loops infinitely */
-}
+    animation: float 3s ease-in-out infinite !important;}
