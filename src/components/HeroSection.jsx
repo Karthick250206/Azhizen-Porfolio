@@ -2,7 +2,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { db } from './firebase';
 import { collection, addDoc } from 'firebase/firestore';
 import Ariz from '../assets/Ariz.png';
-import '..App';
+import '../app.css';
 
 const HeroSection = () => {
   const handleContactClick = () => {
