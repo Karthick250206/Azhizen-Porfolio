@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./components/Navbar";
 import { Routes,Route } from "react-router-dom";
-import Main from "./Main/main.jsx";
+import Main from "../Main/main.jsx";
 import ContactForm from "./components/ContactForm";
 import FooterSection from "./components/FooterSection";
 import Careers from "./components/Careers";
