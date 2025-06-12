@@ -149,19 +149,20 @@ const HeroSection = () => {
 
       {/* Inline CSS to fix scrollbar issue */}
       <style>
-        {`
-          html, body {
-            margin: 0;
-            padding: 0;
-            overflow-x: hidden;
-            overflow-y: auto;
-          }
-          .bg-white.w-full.overflow-x-hidden {
-            min-height: 40vh;
-            overflow-y: auto;
-          }
-        `}
-      </style>
+  {`
+    html, body {
+      margin: 0;
+      padding: 0;
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+    .bg-white.w-full.overflow-x-hidden {
+      min-height: 40vh;
+      overflow: hidden;
+    }
+  `}
+</style>
+
     </div>
   );
 };
