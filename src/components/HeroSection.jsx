@@ -79,10 +79,10 @@ const HeroSection = () => {
     </h1>
     <p className="text-xs text-gray-600 mb-3 px-2">
       Innovate with Azhizen
-We're a product-driven tech company redefining what's possible.
-From smart software to AI-powered hardware, we build bold solutions.
-Our mission? Solve real-world problems with intelligence and precision.
-Step in, stand out, and shape the future with us.
+      We're a product-driven tech company redefining what's possible.
+      From smart software to AI-powered hardware, we build bold solutions.
+      Our mission? Solve real-world problems with intelligence and precision.
+      Step in, stand out, and shape the future with us.
 
     </p>
     <button
@@ -109,11 +109,10 @@ Step in, stand out, and shape the future with us.
 
           <p className="text-gray-600 mb-8 max-w-sm sm:max-w-md lg:max-w-lg 2xl:max-w-xl text-sm sm:text-base lg:text-lg 2xl:text-xl sm:ml-4 lg:ml-10 2xl:ml-12">
             Innovate with Azhizen
-We're a product-driven tech company redefining what's possible.
-From smart software to AI-powered hardware, we build bold solutions.
-Our mission? Solve real-world problems with intelligence and precision.
-Step in, stand out, and shape the future with us.
-
+            We're a product-driven tech company redefining what's possible.
+            From smart software to AI-powered hardware, we build bold solutions.
+            Our mission? Solve real-world problems with intelligence and precision.
+            Step in, stand out, and shape the future with us.
           </p>
 
           <div className="flex space-x-4 sm:ml-4 lg:ml-10 2xl:ml-12">
