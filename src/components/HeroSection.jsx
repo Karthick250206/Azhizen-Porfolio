@@ -96,7 +96,7 @@ Step in, stand out, and shape the future with us.
 
 
       {/* Tablet, Desktop, and 4K View */}
-      <div className="hidden sm:block bg-white h-auto lg:min-h-auto flex items-center px-4 sm:px-6 lg:px-8 2xl:px-12 relative py-15 sm:py-12 lg:py-22 mt-30">
+      <div className="hidden sm:block bg-white h-auto lg:min-h-auto items-center px-4 sm:px-6 lg:px-8 2xl:px-12 relative py-15 sm:py-12 lg:py-22 mt-30">
         <div className="w-full sm:w-3/4 lg:w-1/2">
           <h1
             className="text-3xl sm:text-4xl lg:text-5xl 2xl:text-6xl font-bold text-black leading-tight mb-6 sm:ml-4 lg:ml-10 2xl:ml-12"
