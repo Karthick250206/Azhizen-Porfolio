@@ -19,7 +19,7 @@ const ServicesSection = () => {
   };
 
   return (
-    <section className="relative bg-white w-full overflow-x-hidden mt-0 md:mt-0 lg:mt-16 xl:mt-20">
+    <section className="relative bg-white w-full overflow-x-hidden mt-0">
       <div className="md:bg-[#00B4D9] md:absolute md:inset-0 md:h-full md:w-[100vw]"></div>
       <div className="relative w-full px-4 sm:px-6 md:px-2 lg:px-8 2xl:px-12 py-8 sm:py-12 lg:py-16 2xl:py-20 max-w-7xl 2xl:max-w-[1920px] mx-auto">
         <h2 className="text-2xl sm:text-3xl lg:text-4xl 2xl:text-5xl font-bold text-black md:text-white text-center mb-8 sm:mb-12 lg:mb-16 2xl:mb-20">
@@ -27,9 +27,9 @@ const ServicesSection = () => {
         </h2>
         
         {/* Mobile View */}
-        <div className="md:hidden space-y-6">
+        <div className="md:hidden">
           {services.map((service) => (
-            <div key={service.id} className="text-center mx-auto w-full max-w-xs">
+            <div key={service.id} className="text-center mx-auto w-full max-w-xs mb-4">
               <div
                 className="relative rounded-lg shadow-lg w-full h-56 sm:h-64 cursor-pointer overflow-hidden"
                 onClick={() => toggleContent(service.id)}
@@ -46,11 +46,15 @@ const ServicesSection = () => {
                 </div>
               </div>
               <div
-                className={`mt-4 transition-all duration-500 ease-in-out text-center mx-auto w-full ${
-                  visibleContent === service.id ? "opacity-100 max-h-40" : "opacity-0 max-h-0 overflow-hidden"
+                className={`transition-all duration-500 ease-in-out text-center mx-auto w-full ${
+                  visibleContent === service.id
+                    ? "opacity-100 max-h-40 mt-2"
+                    : "opacity-0 max-h-0 overflow-hidden"
                 }`}
               >
-                <p className="text-black text-sm sm:text-base leading-relaxed">{service.description}</p>
+                <p className="text-black text-sm sm:text-base leading-relaxed">
+                  {service.description}
+                </p>
               </div>
             </div>
           ))}

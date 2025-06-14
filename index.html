@@ -6,23 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta name="description" content="Explore career opportunities at Azhizen. Join our dynamic team and discover your potential in Webflow Development." />
     
-    <!-- Single favicon link that will be updated via JavaScript -->
-    <link id="favicon" rel="icon" type="image/png" href="/fav-icon-light.png" />
+    <!-- Favicon -->
+    <link id="favicon" rel="icon" type="image/png" href="./fav-icon-light.png" />
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&family=Outfit:wght@100..900&display=swap" rel="stylesheet" />
+
+    <!-- CSS for Animation -->
+    <link rel="stylesheet" href="./app.css" />
 
     <title>Azhizen</title>
   </head>
   <body>
     <div id="root"></div>
 
-    <script type="module" src="/src/main.jsx"></script>
+    <script type="module" src="/src/Main.jsx"></script>
 
     <!-- Favicon Theme Switcher Script -->
     <script>
-      const darkSchemeIcon = "/fav-icon-dark.png";
-      const lightSchemeIcon = "/fav-icon-light.png";
+      const darkSchemeIcon = "./fav-icon-dark.png";
+      const lightSchemeIcon = "./fav-icon-light.png";
 
       function updateFavicon() {
         const favicon = document.getElementById("favicon");
