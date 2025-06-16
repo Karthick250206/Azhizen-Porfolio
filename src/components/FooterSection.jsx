@@ -314,6 +314,27 @@ const FooterSection = () => {
       <div className="text-center text-gray-500 mt-4 sm:mt-6 text-sm md:text-xs 2xl:text-base">
         © 2025 Azhizen Solution. All Rights Reserved.
       </div>
+       <div className="mt-3 space-x-4 text-center">
+      <a
+        href="https://academy.azhizen.com"
+        className="text-azhizen-lightPurple hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Azhizen Academy
+      </a>
+
+
+      <span className="text-azhizen-neutralGray">|</span>
+      <a
+        href="https://media.azhizen.com"
+        className="text-azhizen-lightPurple hover:underline"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Azhizen Media
+      </a>
+      </div>
     </footer>
   );
 };
